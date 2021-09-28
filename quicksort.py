@@ -1,7 +1,7 @@
 import math
 import statistics
 
-def quicksort(collection, start, stop) -> None: # Needs to handle the constant data case, pivot never moves and it fails.
+def quicksort(collection, start, stop) -> None: # Needs to handle the constant data case, pivot never moves and it fails. Works for less than 1000.
     if (stop - start) <= 1:
         return
 

@@ -30,7 +30,7 @@ def main():
             try:
                 quicksort.quicksort(arrayToSort, 0, len(arrayToSort))
             except:
-                print("Quick sort overloaded the stack python provides and failed.")
+                print("Quick sort overloaded the stack python provides and failed. (1000 stack limit)")
                 return -1
             stop = time.time()
             print('Stop: ' + str(stop))
