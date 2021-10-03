@@ -6,4 +6,6 @@ def insertionsort(collection):
                 temp = collection[i - j]            # do the swap
                 collection[i - j] = collection[i - j - 1]
                 collection[i - j - 1] = temp
+            else:
+                break
     return collection
