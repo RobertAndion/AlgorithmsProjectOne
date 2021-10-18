@@ -3,7 +3,7 @@ import time
 import generateArrays as makeArrays
 import selectionsort
 import insertionsort
-import quicksort
+import newQuickSortv2
 import test
 def main():
     if len(sys.argv) != 4:
@@ -28,7 +28,7 @@ def main():
             start = time.time()
             print('Start: ' + str(start))
             try:
-                quicksort.quicksort(arrayToSort, 0, len(arrayToSort))
+                newQuickSortv2.quickSort(arrayToSort)
             except:
                 print("Quick sort overloaded the stack python provides and failed. (1000 stack limit)")
                 return -1
