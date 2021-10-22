@@ -1,7 +1,8 @@
 # AlgorithmsProjectOne, Python Implementation
 
 ## Hardware Information
-The project was ran on a Red Hat Linux research server, with many cores and over 1TB of ram. I created a test.sh script that would run all of the required tests and outputted them to a text file. This text file was then migrated into the given csv file.
+The project was ran on a Red Hat Linux research server, with many cores and over 1TB of ram. I created a test.sh script that would run all of the required tests and 
+outputted them to a text file. This text file was then migrated into the given csv file.
 
 The projext, was written, tested, and developed in a linux environment and has not been tested to work
 on mac or windows, however it should.
@@ -36,3 +37,6 @@ python main.py q 10000 s
 This will run quicksort on a sorted array of size 10000.
 
 I have also left a smaller version of the  test.sh script as an example of what I used to run them.
+
+Note:
+The quicksort.py is my implementation while newQuickSortv2.py is one I found that would run with larger data, however v2 is worse with constant data than mine was.
